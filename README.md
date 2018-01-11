@@ -1,3 +1,3 @@
 # FastPrint
 
-Aplikasi yang dikembangkan oleh Dewi Hikmah Yulianti
+Aplikasi pencarian rental printer.

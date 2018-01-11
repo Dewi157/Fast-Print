@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "122335798051",
+    "firebase_url": "https://fast-print.firebaseio.com",
+    "project_id": "fast-print",
+    "storage_bucket": "fast-print.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:122335798051:android:40d331c0c83b3cd9",
+        "android_client_info": {
+          "package_name": "com.hikmah.dewi.fastprint"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "122335798051-2ddvr40pmap94nos090mh2r6quobl09j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hikmah.dewi.fastprint",
+            "certificate_hash": "f111f3649c63507eea6081a85d0a37288e3a7500"
+          }
+        },
+        {
+          "client_id": "122335798051-3t4apl2mudubmcd8cl7bucup0h8j381l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnO-GZ8injBZRp4vDfanAVh9OBZKpeCno"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "122335798051-3t4apl2mudubmcd8cl7bucup0h8j381l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

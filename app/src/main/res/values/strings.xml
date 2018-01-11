@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">FastPrint</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="versi">Versi 0.0.1</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="slide_1_title"> Fast Print</string>
+    <string name="slide_1_desc">Mencetak berkas tanpa kuatir flashdisk terkena virus, dan tanpa mengantri di rental printer</string>
+    <string name="slide_2_title">Lengkapi Profil</string>
+    <string name="slide_2_desc">Dibutuhkan tanda pemilik akun fast print untuk dapat melukan order </string>
+    <string name="slide_3_title">Order</string>
+    <string name="slide_3_desc">Upload berkas yang akan dicetak dari smartphone</string>
+    <string name="slide_4_title">Notifikasi</string>
+    <string name="slide_4_desc">Tunggu notofikasi pertanda berkas sudah dicetak dari rental printer</string>
+    <string name="action_settings">Settings</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="nomor">Phone</string>
+    <string name="password">Password</string>
+    <string name="tanya">No account yet? <u>Create one</u></string>
+    <string name="tanya_register">Have account? <u>Login</u></string>
+    <string name="nama">Nama Lengkap</string>
+    <string name="phonenpass">Empty phone number and password</string>
+    <string name="ephone">Empty phone number</string>
+    <string name="epassword">Empty password</string>
+    <string name="ename">Empty name</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="defaultname">Dewi Hikmah Y</string>
+    <string name="defaultphone">081573686769</string>
+    <string name="networkerror">Network Error</string>
+    <string name="ServerError">Server Error</string>
+    <string name="AuthFailureError">Auth failure</string>
+    <string name="ParseError">Parse Error</string>
+    <string name="NoConnectionError">No conection</string>
+    <string name="TimeoutError">Request Timeout</string>
+    <string name="about_developers_label">Main developers</string>
+    <string name="about_translator_label">Translator</string>
+    <string name="changelog">Changelog</string>
+    <string name="translator"></string>
+    <string name="halaman1">Pages of Color from</string>
+    <string name="halaman">Pages</string>
+    <string name="about_version_label">Version</string>
+    <string name="about_source_label">Source code</string>
+    <string name="about_libraries_label">Used libraries</string>
+    <string name="layout">Layout</string>
+    <string name="deskripsi">A rose is a woody perennial flowering plant of the genus Rosa, in the family Rosaceae, or the flower it bears. There are over a hundred species and thousands of cultivars. They form a group of plants that can be erect shrubs.</string>
+    <string name="nav_home">Home</string>
+    <string name="aboutme">UX / UI Mobile Application\nFront-End Android Developer</string>
+    <string name="namaku">Dewi Hikmah Yulianti</string>
+    <string name="deskripsiku">Description</string>
+    <string name="main">Main Developers</string>
+    <string name="aku">About Me</string>
+    <string name="profile">Profile</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="address">Address</string>
+    <string name="email">Email</string>
+    <string name="defaultemail">dewihikmah157@gmail.com</string>
+    <string name="defaultaddress">Asrama Kerikil Kp. Gudang Sikat</string>
+    <string name="edit">Edit</string>
+    <string name="edi_profile">Edit Profile</string>
+    <string name="save">Save</string>
+    <string name="Cancel">Cancel</string>
+    <string name="defaultfotocpy">Pelangi</string>
+    <string name="defaultjarak">8 KM</string>
+    <string name="permission_dialog">Accessing Location Permissions required</string>
+    <string name="go_to_permissions_settings">Go to App settings and enable permissions</string>
+    <string name="gps_disabled_message">Plaese turn on your gps</string>
+    <string name="defaultprinter">Purnama Foto Copy</string>
+    <string name="defaultalamat">Jln. Manisi No 48 Cibiru</string>
+    <string name="defaultharga">Rp. 100</string>
+    <string name="defaulthargawarna">Rp. 500</string>
+    <string name="warna">Color Full</string>
+    <string name="hp">Black White</string>
+    <string name="order">Order Now</string>
+    <string name="jilid">Book</string>
+    <string name="cover">Cover</string>
+    <string name="s_warna">Color</string>
+    <string-array name="jilid">
+        <item>Choose</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="jenis_cover">
+        <item>Choose Cover</item>
+        <item>Regular</item>
+        <item>Soft</item>
+        <item>Hard</item>
+    </string-array>
+
+    <string-array name="warna">
+        <item>Choose Color</item>
+        <item>Yellow</item>
+        <item>Blue</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Orange</item>
+        <item>Pink</item>
+    </string-array>
+    <string name="information">Information</string>
+    <string name="attach">Attach File</string>
+    <string name="view">View File</string>
+    <string name="kirim">Send</string>
+    <string name="id_null">ID null</string>
+    <string name="path_null">File null</string>
+    <string name="berhasil">Attach File Success</string>
+    <string name="gagal">Attach File Failed</string>
+    <string name="api_key">AIzaSyDOv-X_KverqCSF9TEA-NIKHkOHgtx0j6o</string>
+    <string name="hari">2017-08-09</string>
+    <string name="harga">R.6000</string>
+    <string name="status">Sudah Dikerjakan</string>
+</resources>

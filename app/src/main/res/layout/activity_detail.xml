@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.hikmah.dewi.fastprint.view.DetailActivity">
+    <com.android.volley.toolbox.NetworkImageView
+        android:layout_width="@dimen/gambar150dp"
+        android:layout_height="@dimen/gambar150dp"
+        android:layout_gravity="center"
+        android:padding="@dimen/dimen16dp"
+        android:id="@+id/imagerp"/>
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/coordinator_detail">
+
+        <LinearLayout
+            android:id="@android:id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/dimen6dp"
+                android:layout_marginLeft="@dimen/dimen6dp"
+                android:layout_marginRight="@dimen/dimen6dp"
+                app:cardBackgroundColor="#FFF"
+                app:cardCornerRadius="0dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/dimen8dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/gra_white"
+                        android:orientation="horizontal"
+                        android:paddingBottom="@dimen/dimen16dp"
+                        android:paddingLeft="@dimen/dimen22dp"
+                        android:paddingRight="@dimen/dimen32"
+                        android:paddingTop="@dimen/dimen16dp"
+                        android:weightSum="1">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/fastprint" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <com.pixplicity.fontview.FontAppCompatTextView
+                                android:id="@+id/nama_rental"
+                                style="@style/FontTextViewStyle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.00"
+                                android:gravity="center"
+                                android:paddingLeft="@dimen/dimen16dp"
+                                android:paddingRight="@dimen/dimen16dp"
+                                android:text="@string/defaultprinter"
+                                android:textColor="#000"
+                                android:textSize="@dimen/dimen16dp"
+                                android:textStyle="bold" />
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:minHeight="48dp"
+                        android:orientation="horizontal"
+                        android:paddingLeft="32dp"
+                        android:paddingRight="32dp">
+
+                        <ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_marginTop="8dp"
+                            android:src="@drawable/house" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="32dp"
+                            android:layout_marginStart="32dp"
+                            android:orientation="vertical"
+                            android:paddingBottom="8dp"
+                            android:paddingTop="8dp">
+
+                            <com.pixplicity.fontview.FontAppCompatTextView
+                                style="@style/FontTextViewStyle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/address"
+                                android:textColor="#000"
+                                android:textSize="14dp" />
+
+                            <com.pixplicity.fontview.FontAppCompatTextView
+                                android:id="@+id/alamat_rental"
+                                style="@style/FontTextViewStyle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="4dp"
+                                android:text="@string/defaultalamat"
+                                android:textColor="#706f6f"
+                                android:textSize="11dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:gravity="center_vertical"
+                        android:minHeight="48dp"
+                        android:orientation="horizontal"
+                        android:paddingLeft="32dp"
+                        android:paddingRight="32dp">
+
+                        <ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:src="@drawable/price_hp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="32dp"
+                            android:layout_marginStart="32dp"
+                            android:orientation="vertical"
+                            android:paddingBottom="8dp"
+                            android:paddingTop="8dp">
+
+                            <com.pixplicity.fontview.FontAppCompatTextView
+                                style="@style/FontTextViewStyle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/hp"
+                                android:textColor="#000"
+                                android:textSize="14dp" />
+
+                            <com.pixplicity.fontview.FontAppCompatTextView
+                                style="@style/FontTextViewStyle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="4dp"
+                                android:text="@string/defaultharga"
+                                android:textColor="#706f6f"
+                                android:id="@+id/harga_hp"
+                                android:textSize="11dp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/lie"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:gravity="center_vertical"
+                        android:minHeight="48dp"
+                        android:orientation="horizontal"
+                        android:paddingLeft="32dp"
+                        android:paddingRight="32dp">
+
+                        <ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:src="@drawable/price_warna" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="32dp"
+                            android:layout_marginStart="32dp"
+                            android:orientation="vertical"
+                            android:paddingBottom="8dp"
+                            android:paddingTop="8dp">
+
+                            <com.pixplicity.fontview.FontAppCompatTextView
+                                style="@style/FontTextViewStyle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/warna"
+                                android:textColor="#000"
+                                android:textSize="14dp" />
+
+                            <com.pixplicity.fontview.FontAppCompatTextView
+                                style="@style/FontTextViewStyle"
+                                android:id="@+id/harga_warna"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="4dp"
+                                android:text="@string/defaulthargawarna"
+                                android:textColor="#706f6f"
+                                android:textSize="11dp" />
+
+                    </LinearLayout>
+                    </LinearLayout>
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimenn20dp"
+                        android:background="@color/atas1"
+                        android:text="@string/order"
+                        android:id="@+id/btn_order"
+                        android:layout_margin="@dimen/dimen8dp"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </android.support.design.widget.CoordinatorLayout>
+</LinearLayout>
